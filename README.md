@@ -6,6 +6,7 @@
 [![Brand: @Uber_Support](https://img.shields.io/badge/Brand-%40Uber__Support-black.svg)](https://twitter.com/Uber_Support)
 [![Calibration: κ >= 0.60](https://img.shields.io/badge/Cohen's%20%CE%BA-0.6988%20(Passed)-success.svg)](results/human_vs_judge.json)
 [![Execution: < 15s](https://img.shields.io/badge/Pipeline%20Latency-%3C%2015s-success.svg)](run_pipeline.sh)
+[![Live Dashboard](https://img.shields.io/badge/Dashboard-GitHub%20Pages-purple.svg)](https://Aadhithyan-123.github.io/Hiver-Takehome-Uber/)
 
 A production-grade, submission-ready AI customer support pipeline built for the brand **`@Uber_Support`** as part of the **Hiver SDE Intern Take-Home Assignment**.
 
