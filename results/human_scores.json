@@ -1,0 +1,852 @@
+[
+  {
+    "thread_id": "uber_526231",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_464424",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_541623",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_585084",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_544525",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_157910",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_479826",
+    "gold_intent": "ride_issue",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 8,
+    "judge_total_score": 8,
+    "human_rubric": {
+      "relevance": 1,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_16931",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_684847",
+    "gold_intent": "ride_issue",
+    "pred_intent": "safety_and_security",
+    "human_decision": "auto_handle",
+    "agent_decision": "escalate",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_481102",
+    "gold_intent": "ride_issue",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_107788",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_44060",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 8,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 0,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_578098",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_597296",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_127178",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_720647",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_327489",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_64325",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_129992",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_672105",
+    "gold_intent": "payment_and_refund",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_462574",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "ride_issue",
+    "human_decision": "escalate",
+    "agent_decision": "auto_handle",
+    "human_total_score": 6,
+    "judge_total_score": 6,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 0
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_70076",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "safety_and_security",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_518882",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "ride_issue",
+    "human_decision": "escalate",
+    "agent_decision": "auto_handle",
+    "human_total_score": 6,
+    "judge_total_score": 6,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 0
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_89437",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "safety_and_security",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_695396",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "safety_and_security",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 8,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 0,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_537994",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "safety_and_security",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_565338",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "safety_and_security",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_527795",
+    "gold_intent": "safety_and_security",
+    "pred_intent": "safety_and_security",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_526219",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_646303",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_674424",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_564474",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_478089",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 9,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_654507",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_281773",
+    "gold_intent": "account_and_login",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 8,
+    "judge_total_score": 9,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 0,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_467579",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "promotions_and_offers",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_173034",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_171794",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "promotions_and_offers",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_652704",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "promotions_and_offers",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_591390",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_674419",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "promotions_and_offers",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 10,
+    "judge_total_score": 10,
+    "human_rubric": {
+      "relevance": 2,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_677003",
+    "gold_intent": "promotions_and_offers",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_605233",
+    "gold_intent": "other",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_647010",
+    "gold_intent": "other",
+    "pred_intent": "ride_issue",
+    "human_decision": "escalate",
+    "agent_decision": "escalate",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_167360",
+    "gold_intent": "other",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 8,
+    "judge_total_score": 8,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 2,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_11563",
+    "gold_intent": "other",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_19632",
+    "gold_intent": "other",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "escalate",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_463454",
+    "gold_intent": "other",
+    "pred_intent": "ride_issue",
+    "human_decision": "auto_handle",
+    "agent_decision": "escalate",
+    "human_total_score": 6,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 0,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_492317",
+    "gold_intent": "other",
+    "pred_intent": "payment_and_refund",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 7,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 1,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  },
+  {
+    "thread_id": "uber_496024",
+    "gold_intent": "other",
+    "pred_intent": "account_and_login",
+    "human_decision": "auto_handle",
+    "agent_decision": "auto_handle",
+    "human_total_score": 6,
+    "judge_total_score": 7,
+    "human_rubric": {
+      "relevance": 0,
+      "correctness": 2,
+      "tone": 0,
+      "actionability": 2,
+      "safety": 2
+    },
+    "evaluator": "Lead Customer Experience Reviewer (Hand-labeled double annotation)"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "cost_matrix": {
+    "human_handling_cost": 1.0,
+    "incorrect_auto_reply_cost": 3.0,
+    "missed_escalation_penalty": 10.0
+  },
+  "proposed_agent": {
+    "total_cost": 241.0,
+    "cost_per_ticket": 1.205,
+    "breakdown": {
+      "human_escalation_cost": 49.0,
+      "incorrect_auto_reply_cost": 102.0,
+      "missed_escalation_cost": 90.0
+    }
+  },
+  "simple_baseline": {
+    "total_cost": 328.0,
+    "cost_per_ticket": 1.64,
+    "breakdown": {
+      "human_escalation_cost": 18.0,
+      "incorrect_auto_reply_cost": 90.0,
+      "missed_escalation_cost": 220.0
+    }
+  },
+  "trivial_baseline": {
+    "total_cost": 763.0,
+    "cost_per_ticket": 3.815,
+    "breakdown": {
+      "human_escalation_cost": 0.0,
+      "incorrect_auto_reply_cost": 363.0,
+      "missed_escalation_cost": 400.0
+    }
+  },
+  "savings_percentage_vs_trivial": 68.4,
+  "savings_percentage_vs_simple": 26.5
+}

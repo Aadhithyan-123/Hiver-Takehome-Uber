@@ -1,0 +1,105 @@
+{
+  "brand": "Uber_Support",
+  "brand_name": "Uber",
+  "version": "1.2.0",
+  "dataset": "thoughtvector/customer-support-on-twitter",
+  "sampling_methodology": {
+    "random_seed": 42,
+    "total_brand_tweets_mined": 15526,
+    "total_customer_brand_threads_matched": 14823,
+    "golden_evaluation_sample_size": 200,
+    "stratification_quotas": {
+      "ride_issue": 40,
+      "payment_and_refund": 40,
+      "safety_and_security": 30,
+      "account_and_login": 30,
+      "promotions_and_offers": 30,
+      "other": 30
+    },
+    "minimum_samples_per_intent": 30,
+    "synthetic_data_used": false
+  },
+  "intents": {
+    "ride_issue": {
+      "definition": "Problems experienced before, during, or immediately following a specific ride (driver no-show, wrong route, pickup/cancellation disputes, vehicle cleanliness, unprofessional driver conduct, or lost personal items).",
+      "canonical_examples": [
+        "Driver marked as arrived but was 3 streets away and then cancelled on me!",
+        "Left my iPhone in the back seat of a silver Toyota Camry. Need to call driver ASAP.",
+        "The driver took a massive detour adding 25 minutes to my airport trip."
+      ],
+      "boundary_rules": "If a ride issue involves reckless driving causing acute fear, assault, or vehicle collision, it MUST be classified as safety_and_security rather than ride_issue. If a cancellation results purely in a disputed $5 fee without complaint about driver conduct, classify as payment_and_refund."
+    },
+    "payment_and_refund": {
+      "definition": "Inquiries, disputes, or complaints regarding trip charges, cancellation fees, surge multipliers, tolls, refund requests, double billing, receipt delivery, or Uber Cash balance.",
+      "canonical_examples": [
+        "Why was I charged a $5.75 cancellation fee when the driver was moving away?",
+        "Double charged on my credit card for trip #49281. Need an immediate refund.",
+        "Never received the email receipt for my trip from JFK last night."
+      ],
+      "boundary_rules": "Disputes regarding promotional vouchers that failed to apply are promotions_and_offers unless the customer is requesting an explicit adjustment on an already-settled credit card charge."
+    },
+    "safety_and_security": {
+      "definition": "Acute physical safety hazards, vehicular accidents/collisions, sexual or verbal harassment, reckless/dangerous driving, physical assault, feeling threatened, weapons, intoxication, or police involvement.",
+      "canonical_examples": [
+        "The driver was speeding over 90mph, ran two red lights, and almost crashed into a divider.",
+        "Driver locked the doors, yelled obscenities at me, and refused to let me out.",
+        "Our Uber was hit by another car at an intersection and airbags deployed!"
+      ],
+      "boundary_rules": "ZERO TOLERANCE: Always escalates with should_escalate=True and high risk score (>=0.85). Applies to both passenger experiences and third-party pedestrian/cyclist altercations involving Uber vehicles."
+    },
+    "account_and_login": {
+      "definition": "Issues regarding account authentication, login failures, 2-factor authentication SMS codes, phone number/email profile updates, account suspensions/deactivations, or suspected account compromise/takeover.",
+      "canonical_examples": [
+        "Not receiving the 2FA SMS code to verify my phone number on the app.",
+        "Someone hacked my account and ordered rides in another state!",
+        "My driver account has been deactivated without reason. Need to appeal."
+      ],
+      "boundary_rules": "Routine login troubleshooting can be auto-handled via DM; unauthorized access/hack reports must be escalated immediately with should_escalate=True."
+    },
+    "promotions_and_offers": {
+      "definition": "Questions, discount code failures, promotional campaign terms, Uber Rewards, referral bonus credits, or coupon invalidity.",
+      "canonical_examples": [
+        "Promo code SAVE20 says expired but your promotional email states valid till Sunday.",
+        "Did not receive my $10 referral bonus after my friend completed their first ride.",
+        "How do I apply my student discount to my daily commute?"
+      ],
+      "boundary_rules": "Refers strictly to discount/promo mechanics. If a promo failed and resulted in an unauthorized card charge that the customer wants refunded, treat as payment_and_refund."
+    },
+    "other": {
+      "definition": "General brand feedback, praise/compliments, app feature suggestions, media/press inquiries, or general questions not mapping to the other 5 categories.",
+      "canonical_examples": [
+        "Kudos to your customer support team for resolving my issue so quickly!",
+        "When is Uber expanding electric vehicle options to Austin, Texas?",
+        "Bug in the latest iOS app update: the map freezes on the home tab."
+      ],
+      "boundary_rules": "Catch-all class. Ensure specific operational issues are not dumped here if they belong in ride_issue or payment_and_refund."
+    }
+  },
+  "escalation_policy": {
+    "escalation_thresholds": {
+      "confidence_cutoff": 0.60,
+      "risk_score_cutoff": 0.70
+    },
+    "mandatory_escalation_keywords": [
+      "accident",
+      "harassment",
+      "unsafe",
+      "police",
+      "injury",
+      "lawsuit",
+      "assault",
+      "crash",
+      "stolen",
+      "threat",
+      "threatened",
+      "emergency",
+      "attack",
+      "weapon",
+      "hospital",
+      "blood",
+      "drunk",
+      "hit and run"
+    ],
+    "fallback_template": "We take this report very seriously and want to connect you with our specialized support team immediately. Please send us a direct message (DM) with the phone number tied to your Uber account and relevant trip details so we can investigate."
+  }
+}

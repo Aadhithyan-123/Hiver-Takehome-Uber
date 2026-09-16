@@ -1,0 +1,16 @@
+{
+  "sample_size": 50,
+  "pearson_r": 0.9588,
+  "pearson_p_value": 6.8012e-28,
+  "spearman_rho": 0.9465,
+  "spearman_p_value": 3.1621e-25,
+  "mean_absolute_error": 0.14,
+  "root_mean_squared_error": 0.3742,
+  "cohen_kappa_decision": 0.6988,
+  "cohen_kappa_scores_weighted": 0.954,
+  "human_agent_decision_agreement": 0.9,
+  "human_mean_score": 8.56,
+  "judge_mean_score": 8.66,
+  "judge_leniency_bias": 0.1,
+  "kappa_status": "PASSED (kappa >= 0.60)"
+}

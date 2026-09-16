@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-09-16T15:01:07Z",
+  "dataset": "thoughtvector/customer-support-on-twitter (@Uber_Support)",
+  "eval_set_size": 200,
+  "proposed_agent": {
+    "intent_accuracy": 0.705,
+    "accuracy_ci_95": [
+      0.64,
+      0.77
+    ],
+    "macro_precision": 0.6323,
+    "macro_recall": 0.6819,
+    "macro_f1": 0.6416,
+    "macro_f1_ci_95": [
+      0.5864,
+      0.6885
+    ],
+    "weighted_f1": 0.6503,
+    "escalation_accuracy": 0.865,
+    "escalation_precision": 0.6327,
+    "escalation_recall": 0.775,
+    "escalation_f1": 0.6966,
+    "escalation_false_negative_rate": 0.225,
+    "automation_rate": 0.755,
+    "escalation_confusion": {
+      "TP": 31,
+      "FP": 18,
+      "TN": 142,
+      "FN": 9
+    },
+    "llm_judge_summary": {
+      "mean_total_score": 8.65,
+      "std_total_score": 1.22,
+      "min_score": 5,
+      "max_score": 10,
+      "mean_relevance": 1.43,
+      "mean_correctness": 2.0,
+      "mean_tone": 1.32,
+      "mean_actionability": 2.0,
+      "mean_safety": 1.91
+    }
+  },
+  "baselines": {
+    "trivial_baseline": {
+      "intent_accuracy": 0.2,
+      "accuracy_ci_95": [
+        0.145,
+        0.26
+      ],
+      "macro_f1": 0.0556,
+      "macro_f1_ci_95": [
+        0.0422,
+        0.0688
+      ],
+      "escalation_accuracy": 0.8,
+      "escalation_recall": 0.0,
+      "escalation_fnr": 1.0,
+      "automation_rate": 1.0,
+      "avg_judge_score": 4.12
+    },
+    "simple_baseline": {
+      "intent_accuracy": 0.765,
+      "accuracy_ci_95": [
+        0.705,
+        0.82
+      ],
+      "macro_f1": 0.7612,
+      "macro_f1_ci_95": [
+        0.6926,
+        0.8187
+      ],
+      "escalation_accuracy": 0.89,
+      "escalation_recall": 0.45,
+      "escalation_fnr": 0.55,
+      "automation_rate": 0.91,
+      "avg_judge_score": 6.85
+    }
+  }
+}
