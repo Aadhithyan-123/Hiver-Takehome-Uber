@@ -62,7 +62,7 @@ graph TD
 ### 1. Installation
 Clone the repository and install pinned dependencies:
 ```bash
-git clone https://github.com/your-username/hiver-takehome-uber.git
+git clone https://github.com/Aadhithyan-123/hiver-takehome-uber.git
 cd hiver-takehome-uber
 pip install -r requirements.txt
 ```
